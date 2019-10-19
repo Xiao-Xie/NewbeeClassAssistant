@@ -20,8 +20,8 @@
  */
 
 'use strict';
-import token from './config';
-const PAGE_ACCESS_TOKEN = token.PAGE_ACCESS_TOKEN;
+const mytoken = require('./config');
+const PAGE_ACCESS_TOKEN = mytoken.PAGE_ACCESS_TOKEN;
 // Imports dependencies and set up http server
 const request = require('request'),
   express = require('express'),
